@@ -1,0 +1,12 @@
+{
+	"name":	"LikeBuster",
+	"version": "1.0",
+	"manifest_version": 2,
+	"description": "Hides Facebook 'like spam'.",
+	"content_scripts": [
+		{
+			"matches": ["*://*.facebook.com/*"],
+			"js": ["jquery-1.7.2.min.js", "LikeBuster.js"]
+		}
+	]
+}
