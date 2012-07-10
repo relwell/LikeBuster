@@ -1,8 +1,12 @@
 jQuery(function() {
-	alert('loading');
 	setInterval(function() {
 		jQuery('h6.uiStreamPassive').each(function(){
-			jQuery(this).closest('li').hide();
+			var h6 = jQuery(this);
+			var li = h6.closest('li');
+			if (h6.text().match(/ likes /)) {
+			    console.log("Hid some junk: "+h6.text()+" -- Did you really want to see that?");
+			    li.remove();
+			}
 		});
 	}, 200);
 });
