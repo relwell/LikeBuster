@@ -1,5 +1,5 @@
-= LikeBuster =
-== Ditch the Like Spam! ==
+# LikeBuster #
+## Ditch the Like Spam! ##
 
 LikeBuster uses the amazing power of JavaScript and basic regular expression
 matching to proactively remove items in your news feed that are only there 
