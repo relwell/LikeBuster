@@ -17,7 +17,7 @@ Future iterations of this extension will (possibly) include:
 * Proactive notifications that a story has been blocked
 
 ## Installation Instructions ##
-*  Download the (zip file)[https://github.com/relwell/LikeBuster/zipball/master] and extract it
+*  Download the [zip file](https://github.com/relwell/LikeBuster/zipball/master) and extract it
 *  Put it someplace you don't mind keeping it
 *  In Chrome, click on the wrench in the upper right-hand corner, and select "extensions"
 *  Make sure "developer mode" is clicked
