@@ -15,3 +15,16 @@ Future iterations of this extension will (possibly) include:
 * A blacklist approach tracking a registry of undesirable sources
 * Configurable blocking
 * Proactive notifications that a story has been blocked
+
+## Installation Instructions ##
+*  Download the (zip file)[https://github.com/relwell/LikeBuster/zipball/master] and extract it
+*  Put it someplace you don't mind keeping it
+*  In Chrome, click on the wrench in the upper right-hand corner, and select "extensions"
+*  Make sure "developer mode" is clicked
+*  Click "load unpacked extension", and select the folder you unzipped
+*  Restart Chrome
+
+To tell that it's working, open Chrome back up and press Ctrl+Shift+i (Apple+Shift+i for Macs). This opens your JavaScript console.
+
+Now, navigate to Facebook and start scrolling. If you run into a like spam ad, something went wrong. 
+LikeBuster logs to your JavaScript console every time it removes a spammy story.
