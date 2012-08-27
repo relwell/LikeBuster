@@ -6,10 +6,12 @@ matching to proactively remove items in your news feed that are only there
 because someone is paying Facebook money to spam you. Most Facebook users 
 would agree that this is obnoxious. 
 
-Currently, the extension finds all passive stories (non status updates) that 
+LikeBuster is in continuous release, but currently experimental. 
+
+The extension originally just found all passive stories (non status updates) that 
 include the term "like" in the story header, and removes that story from 
 your news feed by deleting that DOM element. It's a greedy approach, and it 
-could be improved.
+could be improved. Improvements are listed in the release notes below.
 
 Future iterations of this extension will (possibly) include:
 * A blacklist approach tracking a registry of undesirable sources
@@ -28,3 +30,16 @@ To tell that it's working, open Chrome back up and press Ctrl+Shift+i (Apple+Shi
 
 Now, navigate to Facebook and start scrolling. If you run into a like spam ad, something went wrong. 
 LikeBuster logs to your JavaScript console every time it removes a spammy story.
+
+## Release Notes ##
+### Release 082712012 ###
+* Added support for passive stories tagged as sponsored campaigns with variable predicates
+
+### Release 08152012 ###
+* Added support for hiding claimed offers
+
+### Release 07122012 ###
+* Updated regex to leave sharing and liking of non-sponsored info alone
+
+### Release 07102012 ###
+* Initial release
