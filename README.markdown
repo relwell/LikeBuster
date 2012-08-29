@@ -18,7 +18,7 @@ Future iterations of this extension will (possibly) include:
 * Configurable blocking
 * Proactive notifications that a story has been blocked
 
-## Installation Instructions ##
+## Chrome Installation Instructions ##
 *  Download the [zip file](https://github.com/relwell/LikeBuster/zipball/master) and extract it
 *  Put it someplace you don't mind keeping it
 *  In Chrome, click on the wrench in the upper right-hand corner, and select "extensions"
@@ -28,10 +28,25 @@ Future iterations of this extension will (possibly) include:
 
 To tell that it's working, open Chrome back up and press Ctrl+Shift+i (Apple+Shift+i for Macs). This opens your JavaScript console.
 
-Now, navigate to Facebook and start scrolling. If you run into a like spam ad, something went wrong. 
+Now, navigate to Facebook and start scrolling. If you run into a like spam ad or a sponsored story, something went wrong. 
 LikeBuster logs to your JavaScript console every time it removes a spammy story.
 
+## Firefox Installation Instructions ##
+You can skip this process by going to the [add-on page](https://addons.mozilla.org/en-US/firefox/addon/likebuster-for-firefox/).
+It's highly likely Firefox's version will be out of date faster, since it's slightly less accommodating towards experimental extensions.
+* Download the [zip file](https://github.com/relwell/LikeBuster/zipball/master) and extract it
+* Drag the likebuster-for-firefox.xpi onto an open Firefox browser window. This should automatically cause the add-on to install.
+
+To tell that it's working, go to Tools > Web Developer > Web Console or type Ctrl+Alt+K. This opens your JavaScript console.
+
+Now, navigate to Facebook and start scrolling. If you run into a like spam ad or a sponsored story, something went wrong. 
+LikeBuster logs to your JavaScript console every time it removes a spammy story.
+
+
 ## Release Notes ##
+### Release 08282012 ###
+* Included license, added in Firefox add-on.
+
 ### Release 082712012 ###
 * Added support for passive stories tagged as sponsored campaigns with variable predicates
 
