@@ -44,6 +44,15 @@ LikeBuster logs to your JavaScript console every time it removes a spammy story.
 
 
 ## Release Notes ##
+### Release 09062012 ###
+* Now removing Spotify spam
+* Now removing all "shared" stories 
+(please contact the author if you have a problem with this; eventually we will 
+be able to customize this kind of stuff a lot better)
+* Now removing "re-blogging" stories (e.g. So-and-so via such-and-such: (link))
+* Now removing new kind of spam, alerting you that something you like added a link to their timeline.
+NOTE: These features will be added to Firefox in a later release.
+
 ### Release 08282012 ###
 * Included license, added in Firefox add-on.
 
