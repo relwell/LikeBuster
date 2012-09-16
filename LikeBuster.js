@@ -1,9 +1,9 @@
 function logRemove(text)
 {
-    console.log("Hid some junk: "+text+" -- Did you really want to see that?");
+    console.log("LikeBusted: "+text+" -- Did you really want to see that?");
 }
 
-jQuery(function() {
+var likeBust = function() {
 	setInterval(function() {
 		jQuery('h6.uiStreamPassive').each(function(){
 			var h6 = jQuery(this);
@@ -38,6 +38,13 @@ jQuery(function() {
 			    li.remove();
 			}
 		});
+		jQuery('h6 a[href*=pinterest]').each(function(){
+			var span = jQuery(this);
+			var text = span.closest('h6').text();
+			var li = span.closest('li');
+			logRemove(text);
+			li.remove();
+			});
 		jQuery('div.actorDescription').each(function(){
 			var span = jQuery(this);
 			var text = span.text();
@@ -49,4 +56,11 @@ jQuery(function() {
 			}
 		})
 	}, 200);
-});
+};
+
+jQuery(document).ready(function() {
+	if (document.domain.match(/facebook.com/)) {
+	    likeBust();
+	}
+    }
+);
