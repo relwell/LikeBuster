@@ -47,7 +47,7 @@ LikeBuster logs to your JavaScript console every time it removes a spammy story.
 ### Release 09162012 ###
 * Removing Pinterest spam
 * Calling LikeBuster only on Facebook.com domain for improved performance
-**The next version of the Firefox extension will contain both this release and the prior**
+**The next version of the Firefox extension rev 20 contains both this release and the prior**
 
 ### Release 09062012 ###
 * Now removing Spotify spam
