@@ -44,15 +44,15 @@ LikeBuster logs to your JavaScript console every time it removes a spammy story.
 
 
 ## Release Notes ##
-### Release 09182012 ###
+### Release 20120918 ###
 * Fixed bug where "claimed an offer" text was also found in h5.uiStreamPassive
 
-### Release 09162012 ###
+### Release 20120916 ###
 * Removing Pinterest spam
 * Calling LikeBuster only on Facebook.com domain for improved performance
 **The next version of the Firefox extension rev 20 contains both this release and the prior**
 
-### Release 09062012 ###
+### Release 20120906 ###
 * Now removing Spotify spam
 * Now removing all "shared" stories 
 (please contact the author if you have a problem with this; eventually we will 
@@ -61,17 +61,17 @@ be able to customize this kind of stuff a lot better)
 * Now removing new kind of spam, alerting you that something you like added a link to their timeline.
 NOTE: These features will be added to Firefox in a later release.
 
-### Release 08282012 ###
+### Release 20120828 ###
 * Included license, added in Firefox add-on.
 
-### Release 082712012 ###
+### Release 20120827 ###
 * Added support for passive stories tagged as sponsored campaigns with variable predicates
 
-### Release 08152012 ###
+### Release 20120815 ###
 * Added support for hiding claimed offers
 
-### Release 07122012 ###
+### Release 20120712 ###
 * Updated regex to leave sharing and liking of non-sponsored info alone
 
-### Release 07102012 ###
+### Release 20120710 ###
 * Initial release
