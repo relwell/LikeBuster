@@ -1,6 +1,6 @@
 {
 	"name":	"LikeBuster",
-	"version": "20120918",
+	"version": "5",
 	"manifest_version": 2,
 	"description": "Hides Facebook 'like spam'.",
 	"content_scripts": [
