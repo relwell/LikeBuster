@@ -5,7 +5,7 @@ function logRemove(text)
 
 var likeBust = function() {
 	setInterval(function() {
-		jQuery('h6.uiStreamPassive').each(function(){
+		jQuery('h6.uiStreamPassive,h5.uiStreamPassive').each(function(){
 			var h6 = jQuery(this);
 			var text = h6.text();
 

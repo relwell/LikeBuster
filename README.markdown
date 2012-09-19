@@ -44,6 +44,9 @@ LikeBuster logs to your JavaScript console every time it removes a spammy story.
 
 
 ## Release Notes ##
+### Release 09182012 ###
+* Fixed bug where "claimed an offer" text was also found in h5.uiStreamPassive
+
 ### Release 09162012 ###
 * Removing Pinterest spam
 * Calling LikeBuster only on Facebook.com domain for improved performance
