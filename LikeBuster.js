@@ -5,6 +5,12 @@ function logRemove(text)
 
 var likeBust = function() {
 	setInterval(function() {
+		jQuery('div[title="Upcoming Events"]').each(function(){
+			var li = jQuery(this).closest('li');
+			logRemove(li.text());
+			li.remove();
+		});
+
 		jQuery('h6.uiStreamPassive,h5.uiStreamPassive').each(function(){
 			var h6 = jQuery(this);
 			var text = h6.text();
