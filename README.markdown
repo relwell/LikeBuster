@@ -44,6 +44,10 @@ LikeBuster logs to your JavaScript console every time it removes a spammy story.
 
 
 ## Release Notes ##
+### Release 20121128 ###
+* Now hiding all things other people like, since spammier likes get pushed into your news feed more often than informative likes.
+* Improved logging in console
+
 ### Release 20121127 ###
 * Now hiding "suggested events". Who wanted that in the first place?
 
