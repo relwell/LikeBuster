@@ -10,15 +10,13 @@ var likeBust = function() {
 			logRemove(li.text());
 			li.remove();
 		});
-
 		jQuery('h6.uiStreamPassive,h5.uiStreamPassive').each(function(){
 			var h6 = jQuery(this);
 			var text = h6.text();
-
-			if (text.match(/ like(s)? [^(a photo)(a status)(a link)]/)
-			    || text.match(/ claimed an offer /)
+			if (   text.match(/ claimed an offer /)
 			    || text.match(/ shared /) 
-			    || text.match(/ listened to /) ) {
+			    || text.match(/ listened to /)
+			    || text.match(/ like(s)? a [(photo)(status)(link)]/) ) {
 			    var li = h6.closest('li');
 			    logRemove(text);
 			    li.remove();
@@ -30,7 +28,7 @@ var likeBust = function() {
 			
 			if (text.match(/^Sponsored$/)) {
 			    var li = span.closest('li');
-			    logRemove(li.find('h6').text());
+			    logRemove(li.text());
 			    li.remove();
 			}
 		});
@@ -40,7 +38,7 @@ var likeBust = function() {
 			
 			if (text.match(/a link/)) {
 			    var li = span.closest('li');
-			    logRemove(li.find('h6').text());
+			    logRemove(li.text());
 			    li.remove();
 			}
 		});
@@ -57,7 +55,7 @@ var likeBust = function() {
 			
 			if ( text.match(/ via /) || text.match(/ shared /) ) {
 			    var li = span.closest('li');
-			    logRemove(li.find('h6').text());
+			    logRemove(li.text());
 			    li.remove();
 			}
 		})
