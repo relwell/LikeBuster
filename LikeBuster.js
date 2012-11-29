@@ -62,9 +62,6 @@ var likeBust = function() {
 	}, 200);
 };
 
-jQuery(document).ready(function() {
-	if (document.domain.match(/facebook.com/)) {
-	    likeBust();
-	}
-    }
-);
+if (document.domain.match(/facebook.com/)) {
+    likeBust();
+}
