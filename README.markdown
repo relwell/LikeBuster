@@ -44,6 +44,9 @@ LikeBuster logs to your JavaScript console every time it removes a spammy story.
 
 
 ## Release Notes ##
+### Release 20121211 ###
+* Remove any story with " like " in the headline. If you like it, I probably don't want to see it.
+
 ### Release 20121205 ###
 * Remove "upcoming concerts" story from news feed.
 

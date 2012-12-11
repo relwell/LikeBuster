@@ -16,7 +16,7 @@ var likeBust = function() {
 			if (   text.match(/ claimed an offer /)
 			    || text.match(/ shared /) 
 			    || text.match(/ listened to /)
-			    || text.match(/ like(s)? a [(photo)(status)(link)]/) ) {
+			    || text.match(/ like(s)? /) ) {
 			    var li = h6.closest('li');
 			    logRemove(text);
 			    li.remove();
