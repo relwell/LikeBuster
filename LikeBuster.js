@@ -58,10 +58,18 @@ var likeBust = function() {
 			    logRemove(li.text());
 			    li.remove();
 			}
-		})
+		    });
+		jQuery('h6.uiHeaderTitle').each(function(){
+			var span = jQuery(this);
+			var text = span.text();
+			
+			if ( text.match(/ You Might Like$/ ) ) {
+			    span.closest('.ego_section').remove();
+			    logRemove(text);
+			}
+		    });
 	}, 200);
 };
 
-if (document.domain.match(/facebook.com/)) {
-    likeBust();
-}
+
+likeBust();
