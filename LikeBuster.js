@@ -5,6 +5,7 @@ function logRemove(text)
 
 var likeBust = function() {
 	setInterval(function() {
+		jQuery('.shareFooter').remove();
 		jQuery('div[title="Upcoming Events"],div[title="Upcoming Concerts"]').each(function(){
 			var li = jQuery(this).closest('li');
 			logRemove(li.text());
