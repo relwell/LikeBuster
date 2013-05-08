@@ -44,6 +44,11 @@ LikeBuster logs to your JavaScript console every time it removes a spammy story.
 
 
 ## Release Notes ##
+### Release 20120508 ###
+* Remove recently released albums (not another music recommendation service. enough feature creep, guys)
+* Remove share footer, which is pretty obnoxious
+* Remove "megaphone" above status update, which so far is only telling me to buy people Starbucks gift cards
+
 ### Release 20121211 ###
 * Remove any story with " like " in the headline. If you like it, I probably don't want to see it.
 
