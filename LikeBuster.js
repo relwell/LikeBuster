@@ -52,6 +52,13 @@ var likeBust = function() {
 			logRemove(text);
 			li.remove();
 			});
+		jQuery('h5 a[href*=pinterest]').each(function(){
+			var span = jQuery(this);
+			var text = span.closest('h5').text();
+			var li = span.closest('li');
+			logRemove(text);
+			li.remove();
+			});
 		jQuery('div.actorDescription').each(function(){
 			var span = jQuery(this);
 			var text = span.text();
