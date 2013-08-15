@@ -44,7 +44,10 @@ LikeBuster logs to your JavaScript console every time it removes a spammy story.
 
 
 ## Release Notes ##
-### Release 20120508 ###
+### Release 20130815 ###
+* Now removes BuzzFeed links, per feature request by Corioliss
+
+### Release 20130508 ###
 * Remove recently released albums (not another music recommendation service. enough feature creep, guys)
 * Remove share footer, which is pretty obnoxious
 * Remove "megaphone" above status update, which so far is only telling me to buy people Starbucks gift cards
