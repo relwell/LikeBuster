@@ -44,6 +44,10 @@ LikeBuster logs to your JavaScript console every time it removes a spammy story.
 
 
 ## Release Notes ##
+
+### Release 20130914 ###
+* Now hiding stories originating from Tumblr (reblogs, photo likes, etc.)
+
 ### Release 20130815 ###
 * Now removes BuzzFeed links, per feature request by Corioliss
 
