@@ -45,6 +45,9 @@ LikeBuster logs to your JavaScript console every time it removes a spammy story.
 
 ## Release Notes ##
 
+### Release 20131003 ###
+* Now hiding "similar to" content below links people post to your news feed.
+
 ### Release 20130914 ###
 * Now hiding stories originating from Tumblr (reblogs, photo likes, etc.)
 

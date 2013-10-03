@@ -92,6 +92,15 @@ var likeBust = function() {
 			    logRemove(text);
 			}
 		    });
+		jQuery('div.uiStreamEdgeStoryLine').each(function() {
+			var div = jQuery(this);
+			var span = div.find('span.uiStreamEdgeStoryLineTx');
+			var text = span.text();
+			if (span != null && text.match(/Similar to/)) {
+			    div.closest('div').closest('div').remove();
+			    logRemove(text);
+			}
+		    });
 	}, 200);
 };
 
