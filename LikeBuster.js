@@ -96,7 +96,7 @@ var likeBust = function() {
 			var div = jQuery(this);
 			var span = div.find('span.uiStreamEdgeStoryLineTx');
 			var text = span.text();
-			if (span != null && text.match(/Similar to/)) {
+			if (span != null && (text.match(/Similar to/) || text.match(/More From/))) {
 			    div.closest('div').closest('div').remove();
 			    logRemove(text);
 			}
