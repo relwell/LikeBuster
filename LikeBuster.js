@@ -101,6 +101,13 @@ var likeBust = function() {
 			    logRemove(text);
 			}
 		    });
+		jQuery('div.userContentWrapper').each(function() {
+			var div = jQuery(this);
+			var divtext = div.text().toLowerCase();
+			if (divtext.match(/coachella/) || divtext.match(/burning man/) || divtext.match(/\bplaya\b/) || divtext.match(/black rock city/)) {
+			    div.parent().remove();
+			}
+		    });
 	}, 200);
 };
 
