@@ -7,6 +7,7 @@ var likeBust = function() {
 	setInterval(function() {
 		jQuery('.shareFooter').remove();
 		jQuery('#pagelet_megaphone').remove();
+		jQuery('#pagelet_trending_tags_and_topics').remove();
 		jQuery('div[title="Upcoming Events"],div[title="Upcoming Concerts"]').each(function(){
 			var li = jQuery(this).closest('li');
 			logRemove(li.text());
