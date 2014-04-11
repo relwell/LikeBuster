@@ -68,21 +68,7 @@ var likeBust = function() {
 			logRemove(text);
 			li.remove();
 			});
-		jQuery('a.shareText[href*=buzzfeed]').each(function() {
-			var a = jQuery(this);
-			var text = a.find('strong').text();
-			logRemove(text);
-			console.log(a.closest('li.genericStreamStory'));
-			a.closest('li.genericStreamStory').remove();
-		    });
-		jQuery('a.shareText[href*=upworthy]').each(function() {
-			var a = jQuery(this);
-			var text = a.find('strong').text();
-			logRemove(text);
-			console.log(a.closest('li.genericStreamStory'));
-			a.closest('li.genericStreamStory').remove();
-		    });
-		jQuery('a.shareText[href*=medium]').each(function() {
+		jQuery('a.shareText[href*=buzzfeed], a.shareText[href*=upworthy], a.shareText[href*=medium]').each(function() {
 			var a = jQuery(this);
 			var text = a.find('strong').text();
 			logRemove(text);
